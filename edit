@@ -1,0 +1,25 @@
+
+Delete
+	x 	Delete the current character 	
+	dd 	Delete the current whole line 
+	D  	Delete untill the end of the line 
+	dw	delete the word when cursor is in the begginning of the word
+	d0	delete to the begging of the file 
+	d$	delete to the end of the file  
+Replace
+	rx	To replace a single character by character value x
+Change
+	ce 	To change the word 
+	cw	To change the word 
+	
+	c$	To change the content untill the end of the line
+Appending text 
+	a to add text right of the cursor
+	s to replace the current word and start typing from there
+	S to replace the whole current line and start typing 
+
+Change inside
+
+	ciw  change in word 
+	ci{ change inside { braces
+	cip  change in paragrah 

@@ -1,0 +1,21 @@
+
+
+	we can split the current widow into multiple windows by using the command 
+
+
+	:split 
+
+
+	To work on the different text file 
+
+	:split file_name.txt
+
+
+	To close the window we use 
+
+	:wq
+	:q
+	:q!
+	:zz
+
+	

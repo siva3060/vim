@@ -1,0 +1,23 @@
+
+vim method :
+	verb+noun
+	A simple mechanism to know how the commands works in the vim works 
+	verb		noun		keysequence
+
+
+	[number] verb [number]<noun>	
+
+
+	j  -- go down one line 
+
+	1j -- default one line 
+
+		d2w   delete 2 words 
+
+
+
+		this is line4
+		this is line4
+		this is line4
+
+

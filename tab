@@ -1,0 +1,32 @@
+
+:tabedit <filename>
+
+:tabn,:tabp -- navigating across tab
+
+:gt -- go to next tab 
+
+:gT -- go to previous tab 
+
+:3gt -- got the 3rd tab in next 
+
+
+ ***** keyboard shotct 
+
+
+ctrl + page up/down
+
+:tabnew --- to open new tab 
+
+:w <filename> -- to name the new file opened in the tab 
+:tabm 
+
+	:tabm 0 -- move the current tab to first position / far left
+	:tabm 4 -- move the current tab to 4th position from left 
+
+
+
+:q -- close current tab 
+:tabclose -- close current tab
+
+
+

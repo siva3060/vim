@@ -1,0 +1,76 @@
+vi has 2 modes 
+1.command mode
+2.editor mode
+ Command mode:
+	In this mode all the editing work and things that we can do on top of
+	file can be done 
+	
+	To switch to command mode we need to use esc key
+ Editor mode :
+	In this mode we can type the file we can write information on the file can not edit
+	any things 
+ Last Line mode :
+	This mode has the power to perform complex operations on vim file
+	such as 
+		saving the file 
+		saving with out saving last change
+		performing regex on the file
+	by using : we can enter into this mode in command mode 
+
+
+write
+	To enter into the text mode or editor mode use the key --> i
+	we have switched from command mode to editor mode now 
+
+Delete a character 
+	we can simply delete the character by entering into the command mode 
+	where we can delete any thing with a single charactere like..,
+
+Special action
+	.	repeate the last edit action again 
+ctrl + G	To see the status of you in file 
+ctrl + O	To go the last positions you have been
+ctrl + I	To go the newer positions you have been 
+
+patter matching search 
+	when we are face with brackets line ({[ we can do a pattern search to find the similar pattern
+	using the key % which checks for the smilar pattern
+COPY & PASTE
+		
+	
+	copying the word 
+	yw	--	Copy word when cursor is in the begginning of the word
+	yy	--	Copy the whole line
+	buffer copy **special***
+	"ay	--	make a buffer of name a and copy the content 
+		we can make any number of buffers with single character reerence and do copy and paste
+	pasting the word
+	p	-- paste the line below
+	P	-- Paste the line above
+	"ap	-- paste the contents base on the letter case of p
+	Navigating across the lines 
+	0	--	Navigating to the first character of the line 
+	$	--	Navigating to the last Character of the line 	
+	^	-- 	Navigating to the first non blank character of the line 
+	o       --	Open an new line below and enter into insert mode
+	O	--	Open an newline above and put in insert mode
+		
+egex -- use ful commands 
+	To delete a blank line vim text file 
+	regular expression syntax for blank space  -- /^$/
+	switching to last line mode 	           -- :
+	 Applying the regex globally 		   -- g
+	 operation to be performed delete	   -- d
+	:g/^$/d	working with files :(semi colon) indicates last line mode
+
+ to substitue a word in the document 
+:s/wrong_word/right_word/g
+
+
+	:q 	quit the vi program 
+	:wq     save file and quit 
+	:x	save file and quit 
+	:ZZ	save file and quit  
+	:w	save file 
+	:q!	save file with out any changes made from the last save
+ 

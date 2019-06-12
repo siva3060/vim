@@ -1,0 +1,70 @@
+
+
+:split -- to split the current window into splits
+
+	Iam editiong from the top winddow  
+
+	I am editiong frm the bottom window 
+
+:vsplit -- to split the window veritically
+
+	*** shortcut for split --> sp
+	:sp and :vsp
+
+:q  -- close the current split window 
+
+ To open a new file in the window 
+
+:sp / :vsp <file-name>
+
+
+	To navigate among the split windows 
+
+	ctrl + w w -- navigate to next window 
+
+	ctrl + w x -- to exchane splits across the them in screen
+
+
+To rotate among the split screens 
+
+ctrl + w r --- clockwise  
+ctrl +  w R --- anti clock wise 
+
+
+use the navigation keys ijkl with ctrl for navigation
+
+Resizie the split scree 
+
+:resize 10/34/-6
+
+To make all the windows 
+
+ctrl + w = --> to make all the windows into default sizes 
+
+
+to make the current window maxium size 
+
+	ctrl+w _
+
+
+	ctrl+w " max in width 
+
+ctrl+w o to open the current window full screen 
+	-- all the other windows are in buffer zone 
+
+	to see all the buffers use 
+
+	:ba
+
+	:3ba
+:vert ba --> to see all the buffers in vertical windows 
+
+:vert 3ba -- see the first three buffers in verical 
+
+
+	************* to see all the commads related to ctr+w
+
+		:help ctrl-w
+
+
+

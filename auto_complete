@@ -1,0 +1,18 @@
+
+
+	This the one of the coolest feature i learned today 
+
+	AUTO COMPLETION
+
+	After we have an word typed in the vim file we can simple use the keys :
+
+	ctrl + p	--> word with previous pattern 
+	ctrl + n	--> word with next pattern 
+
+
+	Vim will auto generate list of words  you have typed in the file 
+
+	use arrow keys to navigate across the suggested words
+
+
+	*** when using the complex variable name or methods names 	

@@ -1,0 +1,38 @@
+
+	? how to comment out set of line in code using vim 	
+
+
+	vim visual 
+
+
+#	v	    --> visual mode , can select individual characters
+#	V/Shift + v   --> visual lines 
+#	ctr   + v   --> visual block, can use to make a block
+
+
+
+	o,O
+
+	This keys are used to edit the vim block size during the process of selection in the middle
+	we use the keys to navigate to the other corners of block
+
+	
+	$,0
+
+	to select the blocks untill the end of the line 
+	during the selection use $ key to select untill the end of line which is different for each
+	line 
+	
+	Visual Block :
+
+	enter into visual block mode by keys ctrl+v
+
+	select the area 
+
+	using navigation keys
+
+	Insert mode :
+	
+	enter into insert mode by keys shift + i 
+
+	type the text u want to be placed in all the lines of block and press esc key	 	

@@ -1,0 +1,19 @@
+
+
+	Indentation :
+
+	Use the option cindent to auto indent all the lines in the file 
+
+	:set cindent
+
+
+	>> -- indent current line 
+	<< -- outdent current line 
+
+	2j> -- indent next two line below including this line
+
+
+
+Upper case :
+
+	Select the text you want to convert and use key U  

@@ -1,0 +1,160 @@
+vi has 2 modes 
+1.command mode / normal mode
+2.editor mode
+
+ Command mode:
+	In this mode all the editing work and things that we can do on top of
+	file can be done 
+	
+	To switch to command mode we need to use 'esc' key
+
+ Editor mode :
+	In this mode we can type the file we can write information on the file can not edit
+	any things 
+ Last Line mode :
+	This mode has the power to perform complex operations on vim file
+	such as 
+		saving the file 
+		saving with out saving last change
+		performing regex on the file
+	by using : we can enter into this mode in command mode 
+
+vim method :
+
+	operator + motion	
+
+	change + w,e,0,$
+	delete + w,e,0,$
+write
+	To enter into the text mode or editor mode use the key --> i
+	we have switched from command mode to editor mode now 
+
+Delete a character 
+	we can simply delete the character by entering into the command mode 
+	where we can delete any thing with a single character like..,
+
+	'x' 
+
+Special action
+	.	repeate the last edit action again 
+ctrl + G	To see the status of you in file 
+ctrl + O	To go the recent position you have been
+ctrl + I	To go the positions you were but in forward positions
+
+Delete
+	x 	Delete the current character 	
+	dd 	Delete the current whole line 
+	D  	Delete untill the end of the line 
+	dw	delete the word when cursor is in the begginning of the word
+	d0	delete to the begging of the file 
+	d$	delete to the end of the file  
+Replace
+	rx	To replace a single character by character value x
+Change
+	ce 	To change the word 
+	cw	To change the word 
+	
+	c$	To change the content untill the end of the line
+ Appending text 
+	a to add text right of the cursor
+	s to replace the current word and start typing from there
+	S to replace the whole current line and start typing 
+	J to join two line,place the cursor on the first line and press key to join line underneath it
+searching words
+	/word_to_search -- forward
+	?word_to_search -- backward
+	n	--  repeate the search 
+patter matching search 
+	when we are face with brackets line ({[ we can do a pattern search to find the similar pattern
+	using the key % which checks for the smilar pattern
+COPY & PASTE
+		
+	
+	copying the word 
+	yw	--	Copy word when cursor is in the begginning of the word
+	yy	--	Copy the whole line
+	buffer copy **special***
+	"ay	--	make a buffer of name a and copy the content 
+		we can make any number of buffers with single character reerence and do copy and paste
+	pasting the word
+	p	-- paste the line below
+	P	-- Paste the line above
+	"ap	-- paste the contents base on the letter case of p
+	Navigating across the lines 
+	0	--	Navigating to the first character of the line 
+	$	--	Navigating to the last Character of the line 	
+	^	-- 	Navigating to the first non blank character of the line 
+	o       --	Open an new line below and enter into insert mode
+	O	--	Open an newline above and put in insert mode
+		
+Movement 
+	While we are in the command mode we can navigate in 4 directions with
+	these simple keys
+	h -- to move left
+	j -- to move down
+ 	k -- to move up
+	l -- to move Right
+  ** n(operation) -- n is the number and using keys to navigate among lines 
+	10j -- to go down 10 lines below
+	5k  -- to to up 5 lines above 
+Navingating across the screen
+	H	-- 	move to the first character of first line on the screen
+	M	--	move to the first character of the middle line on the screen
+	L	-- 	move to the first character of the last line of the screen
+	G/:$	--	move to the last character of the last line of the file 
+//	nG	--	move to the line number 'n'
+	
+ Move by word 
+	forward
+		w -- move forward to next word first letter
+		e -- move forward to next word last letter  	
+	backward
+		b -- move backward to the previous word first letter
+Regex -- use ful commands 
+	To delete a blank line vim text file 
+	regular expression syntax for blank space  -- /^$/
+	switching to last line mode 	           -- :
+	 Applying the regex globally 		   -- g
+	 operation to be performed delete	   -- d
+	:g/^$/d	working with files :(semi colon) indicates last line mode
+
+ to substitue a word in the document 
+:s/wrong_word/right_word/g
+:line1,line2 s/wrong_word/right_word/
+
+
+	:q 	quit the vi program 
+	:wq     save file and quit 
+	:x	save file and quit 
+	:ZZ	save file and quit  
+	:w	save file 
+	:q!	save file with out any changes made from the last save
+ 
+
+
+=======================================================================================================
+				NOTES FROM VIM USER MANUAL
+=======================================================================================================
+
+ABOUT THE MANUALS
+
+	2 Types
+	
+	1.user manual
+	2.reference manual	--> precise description of how manual works
+
+
+	ctrl + ]  --> how to open the link
+	ctrl + o  --> how to go back to the previous page
+
+
+=======================================================================================================
+					FIRST STEPS IN VIM
+=======================================================================================================
+
+ ~ this indicates that there are no lines in the file
+
+	ctrl + D  -- shows the list of all avaliable things in last line mode after typing something
+	tab	 --	to autocomplete the suggestion 
+
+

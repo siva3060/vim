@@ -1,0 +1,38 @@
+we will lear how to copy and paste in vim 
+
+
+	to compy some thing in vim we use yank 'y'
+	
+	yw 		--	yank word - copy word
+	y(movement)	--	yank movement 
+
+
+	example 
+	
+	line1line1linethis bitch is craxtye1line1line1line1line1line1
+	line2line2line2line2line2line2line2 how are you dingine2line2line2line2line2
+	line3line3line3line3line3line3line3line3line3line3line3line3
+
+
+	
+	line3line3line3line3line3line3line3line3line3line3line3line3
+
+	line1line1line1line1line1line1line1line1line1line1line1line1
+	line1line1line1line1line1line1line1line1line1line1line1line1
+		line2line2line2line2line2line2line2line2line2line2line2line2
+	line3line3line3line3line3line3line3line3line3line3line3line3
+
+		copyword not word int buffer 
+
+	AAAAA BBBBB CCCCC 
+BBBBB 
+CCCCC 
+
+		AAAAA BBBBB CCCCC 
+
+
+=======================================================================================================
+				
+					VON NEUMANN ARCHITECTURE
+
+=======================================================================================================
